@@ -8,7 +8,7 @@ from PIL import Image
 import os
 
 # Load YOLO model
-model_path = "best(3).pt"  # Ensure this file is in the working directory
+model_path = "best.pt"  # Ensure this file is in the working directory
 model = YOLO(model_path)
 
 # Streamlit UI
