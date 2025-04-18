@@ -12,7 +12,7 @@ model_path = "best.pt"  # Ensure this file is in the working directory
 model = YOLO(model_path)
 
 # Streamlit UI
-st.title("Landslide Detection using YOLO")
+st.title("Landslide Detection")
 st.sidebar.header("Upload an Image or Video")
 
 # File uploader
